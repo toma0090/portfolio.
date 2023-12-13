@@ -10,8 +10,8 @@
     flex-direction: column;
 }
 .home-head{
-    background-image:url(../images/back-img.png);
-    background: black url(../images/back-img.png) no-repeat top center;
+    background-image:url(back-img.png);
+    background: black url(back-img.png) no-repeat top center;
     background-size:cover;
  
 }
@@ -38,7 +38,7 @@ nav li a:visited{
 }
 
 .quote{
-    background-image: url('../images/quote-img.png');
+    background-image: url('quote-img.png');
     min-height: 150px;
     background-size: cover;
     margin-top: 50px;
