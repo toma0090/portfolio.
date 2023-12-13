@@ -1,0 +1,260 @@
+:root{
+    --bs-dark-rgb: 0, 0, 0;
+    --bs-primary-rgb: 255, 186, 239;
+  
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.home-head{
+    background-image:url(../images/back-img.png);
+    background: black url(../images/back-img.png) no-repeat top center;
+    background-size:cover;
+ 
+}
+
+h1,h2, h3, h4, h5, h6{
+    color: rgb(var(--bs-primary-rgb));
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.logo{
+    max-width: 150px;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #000;
+}
+
+nav li a,
+nav li a:link,
+nav li a:visited{
+ 
+    background-color: rgb(var(--bs-primary-rgb));
+    min-width: 100px;
+    text-align: center;
+    color: black;
+}
+
+.quote{
+    background-image: url('../images/quote-img.png');
+    min-height: 150px;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+.quote-container {
+    position: relative;
+    text-align: center;
+}
+
+.quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Görselliği artırmak için gölge ekledik */
+}
+
+.quote-text p {
+    margin: 0; /* Paragrafın kenar boşluğunu sıfırla */
+}
+
+.quote-text cite {
+    font-style: italic;
+}
+
+.light-button{
+    display: block;
+    padding: 1rem;
+    background-color: rgb(236, 235, 236);
+    color: rgb(var(--bs-primary-rgb));
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 50px;
+}
+
+nav .form {
+    max-width: 200px; /* İstediğiniz genişliği ayarlayabilirsiniz */
+    margin: right; /* Formu ortalamak için */
+}
+
+.form-control,
+.form-check-input,
+textarea.form-control {
+    width: 200%; /* Genişlik 100% olsun */
+    font-size: 15px; /* Yazı boyutunu küçült */
+}
+
+textarea.form-control {
+    resize: none; /* Textarea'nın yeniden boyutlandırılmasını engelle */
+}
+
+
+
+.form-check-input {
+    width: 15px; /* Genişlik değerini küçülterek ayarlayabilirsiniz */
+    height: 15px; /* Yükseklik değerini küçülterek ayarlayabilirsiniz */
+}
+
+.btn-primary {
+   color: rgb(255, 61, 165);
+   background-color:rgb(255, 192, 240);
+   border: 0;
+   border-radius: inherit;
+    }
+
+
+.bg-body-tertiary {
+    background-color: rgb(255, 255, 255);
+}
+iframe{
+    display: flex;
+    height: 150px;
+    width: 100%;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.form-1 input, .form-1 textarea{
+    width: 100%;
+}
+.form-2 .btn{
+    max-width: 100px;
+}
+
+.saga-kaydir{
+    padding:0 0 10px 10px;
+    max-width: 500px;
+}
+
+.phone,
+.e-mail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; 
+}
+
+
+.phone i,
+.e-mail i {
+    margin-right: 60px; 
+    font-size: 1.5rem;
+}
+
+
+.phone,
+.e-mail {
+    font-size: 30px; 
+    color: #ff32d9; 
+    margin-top: 40px;
+}
+
+footer.bg-gradient {
+    padding: 5px; /* Footer içeriğinden dışarıda bir boşluk ekler */
+    margin-top: 100px; /* Sayfanın altından biraz yukarıda başlar */
+   
+}
+
+
+footer ul.list-unstyled li {
+    margin-right: 10px; /* Liste öğeleri arasındaki boşluğu belirler */
+}
+
+footer ul.list-unstyled li a img {
+    border-radius: 50%; /* İkonların kenarlarını yuvarlar */
+}
+
+.progress-bar{
+    background-color: blueviolet;
+}
+
+.progress, .progress-stacked{
+    background-color: white;
+    height: 2.5rem;
+}
+
+
+
+@media screen and (max-width: 761px) {
+    body {
+      font-size: 14px; 
+    }
+
+    h1{
+        font-size: 3rem; 
+    }
+
+    header.home-head h1 {
+      font-size: 2.5rem; 
+    }
+  
+    nav.navbar {
+      background-color: #333; 
+    }
+  
+    nav.navbar a {
+      color: white; 
+    }
+  
+    
+    main.container section.row {
+      flex-direction: column;
+    }
+  
+    main.container section.row div.col-md-3 {
+      margin-bottom: 10px; 
+    }
+    
+    .progress, .progress-stacked{
+        background-color: white;
+        height: 3.5rem;
+    }
+
+    h3{
+        font-size: 2.5rem;
+        color: #ff12d4;
+    }
+  }
+  
+ 
+  @media screen and (max-width: 530px) {
+    body {
+      font-size: 20px; 
+    }
+  
+    header.home-head h1 {
+      font-size: 3rem; 
+    }
+  
+    nav.navbar {
+      background-color: #333; 
+    }
+  
+    nav.navbar a {
+      color: white; 
+    }
+  
+    
+    main.container section.row {
+      flex-direction: column;
+    }
+  
+    main.container section.row div.col-md-3 {
+      margin-bottom: 20px; 
+    }
+
+    h3{
+        font-size: 2.5rem;
+        color: #ff12d4;
+    }
+  }
+  
+
+
+  
