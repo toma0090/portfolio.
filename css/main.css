@@ -57,11 +57,11 @@ nav li a:visited{
     transform: translate(-50%, -50%);
     color: white;
     font-size: 18px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Görselliği artırmak için gölge ekledik */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
 .quote-text p {
-    margin: 0; /* Paragrafın kenar boşluğunu sıfırla */
+    margin: 0; 
 }
 
 .quote-text cite {
@@ -79,26 +79,26 @@ nav li a:visited{
 }
 
 nav .form {
-    max-width: 200px; /* İstediğiniz genişliği ayarlayabilirsiniz */
-    margin: right; /* Formu ortalamak için */
+    max-width: 200px; 
+    margin: right; 
 }
 
 .form-control,
 .form-check-input,
 textarea.form-control {
-    width: 200%; /* Genişlik 100% olsun */
-    font-size: 15px; /* Yazı boyutunu küçült */
+    width: 200%; 
+    font-size: 15px; 
 }
 
 textarea.form-control {
-    resize: none; /* Textarea'nın yeniden boyutlandırılmasını engelle */
+    resize: none; 
 }
 
 
 
 .form-check-input {
-    width: 15px; /* Genişlik değerini küçülterek ayarlayabilirsiniz */
-    height: 15px; /* Yükseklik değerini küçülterek ayarlayabilirsiniz */
+    width: 15px;
+    height: 15px; 
 }
 
 .btn-primary {
@@ -157,18 +157,18 @@ iframe{
 }
 
 footer.bg-gradient {
-    padding: 5px; /* Footer içeriğinden dışarıda bir boşluk ekler */
-    margin-top: 100px; /* Sayfanın altından biraz yukarıda başlar */
+    padding: 5px; 
+    margin-top: 100px; 
    
 }
 
 
 footer ul.list-unstyled li {
-    margin-right: 10px; /* Liste öğeleri arasındaki boşluğu belirler */
+    margin-right: 10px; 
 }
 
 footer ul.list-unstyled li a img {
-    border-radius: 50%; /* İkonların kenarlarını yuvarlar */
+    border-radius: 50%; 
 }
 
 .progress-bar{
@@ -221,6 +221,7 @@ footer ul.list-unstyled li a img {
         font-size: 2.5rem;
         color: #ff12d4;
     }
+
   }
   
  
